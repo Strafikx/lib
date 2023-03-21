@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<h1>All Publishers</h1>
+{% for publisher in publishers %}
+<p>{{publisher.name}}</p>
+<br>
+{% endfor %}
+
+
+{% endblock content %}
+
+{% block title %}
+<h5>All Pablishers</h5>
+{% endblock %}

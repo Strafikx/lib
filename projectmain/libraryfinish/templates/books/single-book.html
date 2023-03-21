@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<h1>Books: {{ book.title }}</h1>
+
+<p>Author: {{ book.author }}</p>
+
+<p>Publisher: {{ book.publisher }}</p>
+
+<p>Publication Date: {{ book.public_date }}</p>
+
+<img src="{{ book.cover}}" alt="cover photo">
+
+
+
+{% endblock %}

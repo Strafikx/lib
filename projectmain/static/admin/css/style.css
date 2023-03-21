@@ -1,0 +1,47 @@
+.mainbody {
+    margin:auto;
+    
+    border: 5px solid;
+    text-align: center;
+    height: 1400px;
+    
+}
+
+.table {
+    margin:auto;
+    text-align:center;
+}
+
+img {
+    height: 70px;
+ 
+    margin-top: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: black;
+
+}
+
+hr {
+ height: 10px;   
+ color: black;
+ background-color: cornflowerblue;
+}
+
+.blue {
+    height: 10px;
+    color: blue;
+    background-color: blue;
+    margin-top: -10px;
+
+}
+
+.red { 
+    margin-top: -10px;
+    height: 10px;
+    color: red;
+    background-color: red;
+}

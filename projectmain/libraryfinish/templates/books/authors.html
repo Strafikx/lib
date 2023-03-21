@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<h1>All Authors</h1>
+{% for author in authors %}
+<p>{{author.name}}</p>
+<br>
+{% endfor %}
+
+
+{% endblock content %}
+
+{% block title %}
+All Authors
+{% endblock %}
